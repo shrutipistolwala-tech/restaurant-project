@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 // End
+import { MatListModule } from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { MenuComponent } from './menu/menu.component';
     //  Addition
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatListModule,
     FlexLayoutModule
     // End
   ],
